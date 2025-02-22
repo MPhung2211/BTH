@@ -25,11 +25,13 @@ int main() {
 	int choice;
 
 	do {
-		cout << "\n=============<> Menu<>===========\n";
-		cout << "  1. Kiem tra so nguyen to\n";
-		cout << "  2. Kiem tra nam nhuan\n";
-		cout << "  3. Thoat\n";
-		cout << "  Chon chuc nang: ";
+		cout << "\n=============<> Menu <>===========\n"
+		     << "  1. Kiem tra so nguyen to\n"
+			 << "  2. Kiem tra nam nhuan\n"
+			 << "  3. Thoat\n"
+			 << "==================================\n"
+			 << "  Chon chuc nang: ";
+			
 		cin >> choice;
 		
 		if (choice == 1) {
